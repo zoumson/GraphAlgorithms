@@ -2,14 +2,17 @@
 #include "adjNode.h"
 #include <iostream>
 
-// print all adjacent vertices of given vertex
-void display_AdjList(adjNode *ptr, int i)
+namespace za
 {
-    while (ptr != nullptr)
+    // print all adjacent vertices of given vertex
+    void display_AdjList(za::adjNode *ptr, int i)
     {
-        std::cout << "(" << i << ", " << ptr->val
-                  << ", " << ptr->cost << ") ";
-        ptr = ptr->next;
+        while (ptr != nullptr)
+        {
+            std::cout << "(" << i << ", " << ptr->val
+                      << ", " << ptr->cost << ") ";
+            ptr = ptr->next;
+        }
+        std::cout << std::endl;
     }
-    std::cout << std::endl;
 }

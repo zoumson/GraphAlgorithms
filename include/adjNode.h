@@ -1,8 +1,11 @@
 
 #pragma once
 // stores adjacency list items
-struct adjNode
+namespace za
 {
-    int val, cost;
-    adjNode *next;
-};
+    struct adjNode
+    {
+        int val, cost;
+        adjNode *next;
+    };
+}
