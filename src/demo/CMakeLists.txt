@@ -16,7 +16,7 @@ endfunction()
 
 
 make_exe(demo1 trasversal)
-#make_exe(demo2 lib2)
+make_exe(demo2 DiaGraph)
 #set(demo3_libs  lib1 lib2)
 #make_exe(demo3 "${demo3_libs}")
 

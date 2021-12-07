@@ -15,3 +15,4 @@ MACRO(make_lib name)
 ENDMACRO()
 
 make_lib(trasversal)
+make_lib(DiaGraph)
